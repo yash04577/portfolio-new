@@ -11,8 +11,8 @@ const Home = () => {
 
   return (
     <div className="w-full">
-      <div className="max-w-[1280px] mx-auto flex border-b border-black">
-        <div className="mt-24 flex-1">
+      <div className="sm:max-w-[1280px] mx-auto sm:flex-row flex flex-col-reverse pb-5 sm:pb-0 border-b border-black">
+        <div className="sm:mt-24 w-[90%] sm:w-full mx-auto flex-1">
           <p className="text-[18px] text-[#c4cfde]">WELCOME TO MY WORLD</p>
           <div>
             <span className="text-[60px] text-white font-bold">Hi, I'm </span>
@@ -25,9 +25,9 @@ const Home = () => {
           <Typewriter
             options={{
               strings: [
-                "i am a full stack developer",
-                "android developer",
-                "aws learner",
+                "I am a Full Stack Developer",
+                "Android developer",
+                "AWS Learner",
               ],
               autoStart: true,
               loop: true,
@@ -90,9 +90,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex-1 flex justify-center items-center">
-          <div className="relative w-[300px] lg:w-[500px] h-[360px] lg:h-[680px] rounded-full">
-            <div className="absolute rounded-full bottom-20 lg:w-[500px] lg:h-[500px] shadow-skill-card overflow-hidden">
+        <div className="flex-1 flex justify-center items-center mt-[100px] sm:mt-0">
+          <div className="relative sm:w-[300px] w-full h-[400px] sm:h-[760px]  rounded-full">
+            <div className="absolute rounded-full bottom-20 w-full sm:lg:w-[500px] sm:lg:h-[500px] h-[700px] shadow-skill-card overflow-hidden">
               <img
                 className="absolute bottom-0 z-20"
                 // src="https://prakashbhattportfolio.netlify.app/static/media/bannerImg.76dd8f0606912b6dd802.png"

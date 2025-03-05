@@ -43,10 +43,10 @@ const SkillsBar = () => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 rounded-lg">
-        <div className="mb-10 mt-10">
+        <div className="mb-10 mt-10 hidden sm:block">
             <span className="text-[36px] text-[#c4cfde] font-bold leading-6">Frontend Skills</span>
         </div>
-        <div className="mb-10 mt-10">
+        <div className="mb-10 mt-10 hidden sm:block">
             <span className="text-[36px] text-[#c4cfde] font-bold leading-6">Backend Skills</span>
         </div>
       {skills.map((skill, index) => (

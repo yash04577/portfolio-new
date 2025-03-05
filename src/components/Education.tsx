@@ -3,13 +3,14 @@ import JobExperienceCard from "./JobExperienceCard";
 
 function Education() {
   return (
-    <div className="flex">
-      <div className="flex w-[40%] flex-col py-10 gap-10 group">
-        <div className="mb-10 mt-5">
-
-            <span className="text-[32px] text-[#c4cfde] font-bold leading-6">Education</span>
+    <div className="sm:flex">
+      <div className="sm:flex sm:w-[40%] flex-col py-10 gap-10 group">
+        <div className="mb-10 mt-5 pl-7 sm:pl-0">
+          <span className="text-[32px] text-[#c4cfde] font-bold leading-6">
+            Education
+          </span>
         </div>
-        <div className="border-l-8 border-[#191b1e] relative flex flex-col gap-10 px-10">
+        <div className="border-l-8 border-[#191b1e] relative flex flex-col w-[90%] mx-auto sm:w-full gap-10 px-10">
           <div className="border-l-8 border-[#191b1e] absolute w-[40px] h-[50px] top-[60px] rotate-90 left-0">
             <div className="w-[30px] h-[30px] bg-[#191b1e] rounded-full flex justify-center items-center absolute top-8 left-[-20px]">
               <div className="w-[80%] h-[80%] bg-[#212428] rounded-full"></div>
@@ -45,12 +46,14 @@ function Education() {
           />
         </div>
       </div>
-      <div className="w-[60%] py-10">
-        <div className="mb-10 mt-5">
-            <span className="text-[32px] text-[#c4cfde] font-bold leading-6">Job Experience</span>
+      <div className="sm:w-[60%] py-10">
+        <div className="mb-10 mt-5 sm:pl-0 pl-7">
+          <span className="text-[32px] text-[#c4cfde] font-bold leading-6">
+            Job Experience
+          </span>
         </div>
         <div className="flex py-10 justify-end relative">
-          <div className="border-l-8 border-[#191b1e] z-20 absolute w-[40px] h-[50px] top-[100px] rotate-90 left-[25px]">
+          <div className="border-l-8 hidden sm:block border-[#191b1e] z-20 absolute w-[40px] h-[50px] top-[100px] rotate-90 left-[25px]">
             <div className="w-[30px] h-[30px] bg-[#191b1e] rounded-full flex justify-center items-center absolute top-8 left-[-20px]">
               <div className="w-[80%] h-[80%] bg-[#212428] rounded-full"></div>
             </div>
@@ -64,7 +67,7 @@ function Education() {
           />
         </div>
         <div className="flex py-10 justify-end relative">
-          <div className="border-l-8 border-[#191b1e] z-20 absolute w-[40px] h-[50px] top-[100px] rotate-90 left-[25px]">
+          <div className="border-l-8 hidden sm:block border-[#191b1e] z-20 absolute w-[40px] h-[50px] top-[100px] rotate-90 left-[25px]">
             <div className="w-[30px] h-[30px] bg-[#191b1e] rounded-full flex justify-center items-center absolute top-8 left-[-20px]">
               <div className="w-[80%] h-[80%] bg-[#212428] rounded-full"></div>
             </div>

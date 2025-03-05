@@ -8,8 +8,8 @@ import { FaCircleNodes } from "react-icons/fa6";
 
 const Skills = () => {
   return (
-    <div className=''>
-        <div className='py-24 max-w-[1280px] mx-auto border-b border-black'>
+    <div className='mt-10 sm:mt-0'>
+        <div className='sm:py-24 sm:max-w-[1280px] mx-auto border-b px-10 sm:px-0 border-black'>
             <div>
                 <p className='text-[#ff014f]'>SKILLS</p>
             </div>

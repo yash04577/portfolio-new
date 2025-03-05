@@ -9,7 +9,7 @@ import wallpaperPhoto from "../assets/wallpaper.jpeg"
 const Projects = () => {
   return (
     <div className="">
-      <div className="max-w-[1280px] mx-auto border-b border-black py-24 flex flex-col">
+      <div className="sm:max-w-[1280px] mx-auto border-b border-black py-24 sm:px-0 px-10 flex flex-col">
         <div>
           <p className="text-[#ff014f] text-center">
             VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK

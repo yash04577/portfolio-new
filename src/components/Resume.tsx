@@ -17,7 +17,7 @@ const Resume = () => {
         </div>
         <div>
           <div>
-            <div className="bg-black w-[1280px] mx-auto text-white text-2xl flex rounded-lg transition-all duration-500">
+            <div className="bg-black sm:w-[1280px] w-[90%] mx-auto text-white text-2xl flex flex-col sm:flex sm:flex-row rounded-lg transition-all duration-500">
               <button onClick={()=>setShowSkill(false)} className={`py-5 text-center flex-1 ${!showSkill ? "border border-red-400 rounded-lg" : "" } rounded-lg`}>
                 Education
               </button>
