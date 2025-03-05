@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Card from './Card'
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
@@ -6,9 +6,7 @@ import { FaAws } from "react-icons/fa";
 import { IoGitPullRequest } from "react-icons/io5";
 import { FaCircleNodes } from "react-icons/fa6";
 
-type Props = {}
-
-const Skills = (props: Props) => {
+const Skills = () => {
   return (
     <div className=''>
         <div className='py-24 max-w-[1280px] mx-auto border-b border-black'>

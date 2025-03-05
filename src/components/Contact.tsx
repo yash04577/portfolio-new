@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Contact = () => {
@@ -62,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div className='flex flex-col gap-3'>
                     <div>MESSAGE</div>
-                    <textarea className='rounded-md w-[95%] bg-[#191b1e] border-b border-gray-500' name="" id="" rows="8"></textarea>
+                    <textarea className='rounded-md w-[95%] bg-[#191b1e] border-b border-gray-500' name="" id="" rows={8}></textarea>
                 </div>
                 <div className='mt-4'>
                     <button className='w-[95%]  border-2 rounded-md py-3 text-xl bg-[#191b1e] border-b border-gray-500'>SEND MESSAGE</button>

@@ -2,9 +2,7 @@ import { useState } from "react";
 import SkillsBar from "./ProgessBar";
 import Education from "./Education";
 
-type Props = {};
-
-const Resume = (props: Props) => {
+const Resume = () => {
 
   const [showSkill, setShowSkill] = useState<boolean>(false);
 

@@ -1,17 +1,13 @@
-import React, { useEffect, useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import YashImage from "../assets/yash.png";
 import Typewriter from "typewriter-effect";
 import { FaNodeJs } from "react-icons/fa";
 
-type Props = {};
-
-const Home = (props: Props) => {
+const Home = () => {
 
   return (
     <div className="w-full">

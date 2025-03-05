@@ -1,5 +1,4 @@
 import React from 'react'
-import { IoMdCode } from "react-icons/io";
 
 type Props = {
   icon: React.ElementType;

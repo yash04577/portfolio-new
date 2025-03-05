@@ -1,8 +1,6 @@
-import React from "react";
 
-type Props = {};
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
   return (
     <nav className="w-full h-24 flex justify-between px-20 items-center border-b border-gray-300 sticky top-0 z-50 bg-[#212428]">
       <div className="text-3xl text-white font-bold">YP</div>

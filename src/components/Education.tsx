@@ -1,4 +1,3 @@
-import React from "react";
 import EducationCard from "./EducationCard";
 import JobExperienceCard from "./JobExperienceCard";
 

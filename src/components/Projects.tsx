@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectCard from "./ProjectCard";
 import gymPhoto from "../assets/gym.png";
 import socialPhoto from "../assets/social.png";
@@ -7,9 +6,7 @@ import khattPhoto from "../assets/khat.png"
 import timmerPhoto from "../assets/timmer.jpg"
 import wallpaperPhoto from "../assets/wallpaper.jpeg"
 
-type Props = {};
-
-const Projects = (props: Props) => {
+const Projects = () => {
   return (
     <div className="">
       <div className="max-w-[1280px] mx-auto border-b border-black py-24 flex flex-col">
