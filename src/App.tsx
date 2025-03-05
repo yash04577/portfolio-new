@@ -8,7 +8,7 @@ import Contact from "./components/Contact"
 function App() {
   
   return (
-    <div className="bg-[#212428]">
+    <div className="bg-[#212428] overflow-x-hidden">
       <Navbar />
       <Home />
       <Skills />

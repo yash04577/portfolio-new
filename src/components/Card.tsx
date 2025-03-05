@@ -8,7 +8,7 @@ type Props = {
 
 const Card = ({icon:Icon, title, description}: Props) => {
   return (
-    <div className='text-[#c4cfde] w-[400px] h-[300px] hover:bg-[#191b1e] transition-all duration-700 shadow-skill-card flex flex-col gap-5 py-6 px-10 rounded-lg'>
+    <div className='text-[#c4cfde] sm:w-[400px] sm:h-[300px] hover:bg-[#191b1e] transition-all duration-700 shadow-skill-card flex flex-col gap-5 py-6 px-10 rounded-lg'>
         <div className='text-[48px]'>
         <Icon className='text-[#ff014f]' />
         </div>

@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="w-full">
       <div className="sm:max-w-[1280px] mx-auto sm:flex-row flex flex-col-reverse pb-5 sm:pb-0 border-b border-black">
-        <div className="sm:mt-24 w-[90%] sm:w-full mx-auto flex-1">
+        <div className="sm:mt-20 w-[90%] sm:w-full mx-auto flex-1">
           <p className="text-[18px] text-[#c4cfde]">WELCOME TO MY WORLD</p>
           <div>
             <span className="text-[60px] text-white font-bold">Hi, I'm </span>
@@ -40,7 +40,7 @@ const Home = () => {
           {/* <p className="text-[60px] text-white font-bold">Hi, I'm Yash</p> */}
           {/* <p className="text-[36px] text-white">{()=>TypingEffectFun()}</p> */}
           {/* <p className="text-[36px] text-white">a Full Stack Developer</p> */}
-          <p className="text-[16px] text-[#c4cfde] mb-24 mt-10">
+          <p className="text-[16px] text-[#c4cfde] mb-10 mt-10">
             Welcome to my portfolio! I'm Yash Prajapati, a passionate full stack
             developer with a drive to excel in web development. I bring forth a
             dynamic blend of technical proficiency and creative flair to craft
@@ -50,12 +50,12 @@ const Home = () => {
             user-centered design.
           </p>
 
-          <div className="flex justify-between">
+          <div className="sm:flex sm:justify-between">
             <div className="">
               <div className="text-[16px] text-[#c4cfde] mb-4">
                 <p>FIND ME ON</p>
               </div>
-              <div className="flex gap-4 text-3xl">
+              <div className="flex gap-4 text-3xl mb-5 sm:mb-0">
                 <div className=" rounded-md bg-[#191b1e] text-white p-3 hover:text-[#ff014f] transition-all duration-500">
                   <a href="https://github.com/yash04577">
                     <FaGithub />
@@ -91,7 +91,7 @@ const Home = () => {
         </div>
 
         <div className="flex-1 flex justify-center items-center mt-[100px] sm:mt-0">
-          <div className="relative sm:w-[300px] w-full h-[400px] sm:h-[760px]  rounded-full">
+          <div className="relative sm:w-[300px] w-full h-[400px] sm:h-[650px]  rounded-full">
             <div className="absolute rounded-full bottom-20 w-full sm:lg:w-[500px] sm:lg:h-[500px] h-[700px] shadow-skill-card overflow-hidden">
               <img
                 className="absolute bottom-0 z-20"
