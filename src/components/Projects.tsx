@@ -5,10 +5,18 @@ import shopcartPhoto from "../assets/shopcart.png";
 import khattPhoto from "../assets/khat.png"
 import timmerPhoto from "../assets/timmer.jpg"
 import wallpaperPhoto from "../assets/wallpaper.jpeg"
+import { motion } from "framer-motion";
 
-const Projects = () => {
+type props = {
+  setSelectedPage: (data:string)=> void
+}
+
+const Projects = ({setSelectedPage}:props) => {
   return (
-    <div className="">
+    
+    <motion.div onViewportEnter={()=>setSelectedPage("projects")}>
+
+    <div className="" id="projects">
       <div className="sm:max-w-[1280px] mx-auto border-b border-black py-24 sm:px-0 px-10 flex flex-col">
         <div>
           <p className="text-[#ff014f] text-center">
@@ -63,6 +71,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    </motion.div>
   );
 };
 

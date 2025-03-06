@@ -5,10 +5,17 @@ import { FaNodeJs } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
 import { IoGitPullRequest } from "react-icons/io5";
 import { FaCircleNodes } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
-const Skills = () => {
+type props = {
+    setSelectedPage: (data:string)=> void
+  }
+
+const Skills = ({setSelectedPage}:props) => {
   return (
-    <div className='mt-10 sm:mt-0'>
+    <motion.div onViewportEnter={()=>setSelectedPage("skills")}>
+
+    <div className='mt-10 sm:mt-0' id='skills'>
         <div className='sm:py-24 sm:max-w-[1280px] mx-auto border-b px-10 sm:px-0 border-black pb-10'>
             <div>
                 <p className='text-[#ff014f]'>SKILLS</p>
@@ -25,6 +32,7 @@ const Skills = () => {
             </div>
         </div>
     </div>
+    </motion.div>
   )
 }
 

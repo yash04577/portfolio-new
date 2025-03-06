@@ -6,11 +6,18 @@ import { SiTypescript } from "react-icons/si";
 import YashImage from "../assets/yash.png";
 import Typewriter from "typewriter-effect";
 import { FaNodeJs } from "react-icons/fa";
+import { motion } from "framer-motion";
 
-const Home = () => {
+type props = {
+  setSelectedPage: (data:string)=> void
+}
+
+const Home = ({setSelectedPage}:props) => {
 
   return (
-    <div className="w-full">
+<motion.div onViewportEnter={()=>setSelectedPage("home")}>
+
+    <div className="w-full" id="home">
       <div className="sm:max-w-[1280px] mx-auto sm:flex-row flex flex-col-reverse pb-5 sm:pb-0 border-b border-black">
         <div className="sm:mt-20 w-[90%] sm:w-full mx-auto flex-1">
           <p className="text-[18px] text-[#c4cfde]">WELCOME TO MY WORLD</p>
@@ -104,6 +111,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+                </motion.div>
   );
 };
 

@@ -1,8 +1,16 @@
+import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-const Contact = () => {
+type props = {
+  setSelectedPage: React.Dispatch<React.SetStateAction<string>>;
+};
+
+const Contact = ({setSelectedPage}:props) => {
   return (
-    <div className="w-full">
+    <motion.div onViewportEnter={()=>setSelectedPage("contact")}>
+
+    
+    <div className="w-full" id="contact">
       <div className="sm:max-w-[1280px] mx-auto py-24 border-b border-black">
         <div>
           <p className="text-[#ff014f] text-center">CONTACT</p>
@@ -95,6 +103,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </motion.div>
   );
 };
 

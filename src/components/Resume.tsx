@@ -1,13 +1,20 @@
 import { useState } from "react";
 import SkillsBar from "./ProgessBar";
 import Education from "./Education";
+import { motion } from "framer-motion";
 
-const Resume = () => {
+type props = {
+  setSelectedPage: (data:string)=> void
+}
+
+const Resume = ({setSelectedPage}:props) => {
 
   const [showSkill, setShowSkill] = useState<boolean>(false);
 
   return (
-    <div className="w-full">
+    <motion.div onViewportEnter={()=>setSelectedPage("resume")}>
+
+    <div className="w-full" id="resume">
       <div className="max-w-[1280px] mx-auto py-24 border-b border-black">
         <div>
           <p className="text-[#ff014f] text-center">SOMETHING ABOUT ME</p>
@@ -32,6 +39,7 @@ const Resume = () => {
         </div>
       </div>
     </div>
+    </motion.div>
   );
 };
 
